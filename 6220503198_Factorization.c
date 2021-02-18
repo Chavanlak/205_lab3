@@ -9,6 +9,11 @@ int main()
     }
     while(k!=1)
     {
+        while(k%x==0)
+        {
+            printf("%d\n",x);
 
+        }
+        printf(%d)
     }
 }
