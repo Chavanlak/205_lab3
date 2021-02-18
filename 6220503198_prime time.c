@@ -6,16 +6,18 @@ int main()
     scanf("%d",&n);
     for(i=0;i<n;i++)
     {
-       scanf("%d%d",&p,&a)
+       scanf("%d%d",&p,&a);
        time[p-1]+=a;
     }
     for(i=0;i<48;i++)
     {
-        if(m<time[i])
+        if(sum<time[i])
         {
-
+            sum = time[i];
+            prime=i;
         }
     }
+    printf("%d %d",time,time[prime]);
 
 
 
