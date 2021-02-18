@@ -17,7 +17,7 @@ int main()
 {
     int x,min,max,i;
     scanf("%d",&x);
-    for(i=x;i<x;i++)
+    for(i=x;;i++)
     {
         if(function(i))
         {
@@ -37,6 +37,11 @@ int main()
             }
         }
     }
-    if(x-min)
+    if(x-min>max-x)
+    {
+        printf("%d",max);
+
+    }else
+    printf("%d",min);
 }
 
