@@ -1,8 +1,8 @@
 #include<stdio.h>
 int main()
 {
-    int k,n,x;
-    scanf("%d",k);
+    int k,n=0,x=2;
+    scanf("%d",&k);
     if(k==1)
     {
         printf("1\n");
@@ -12,8 +12,12 @@ int main()
         while(k%x==0)
         {
             printf("%d\n",x);
+            k/=x;
 
         }
-        printf(%d)
+        x++;
+
     }
+    printf("%d",n);
+    return 0 ;
 }
