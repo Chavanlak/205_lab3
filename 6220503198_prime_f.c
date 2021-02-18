@@ -16,5 +16,27 @@
 int main()
 {
     int x,min,max,i;
+    scanf("%d",&x);
+    for(i=x;i<x;i++)
+    {
+        if(function(i))
+        {
+            max =i;
+            break;
+        }
+    }
+    min =max;
+    for(i=x;i>1;i--)
+    {
+        if(function(i))
+        {
+            if(function(i))
+            {
+                min = i;
+                break ;
+            }
+        }
+    }
+    if(x-min)
 }
 
