@@ -7,11 +7,11 @@ int main()
     for(i=0;i<n;i++)
     {
        scanf("%d%d",&p,&a)
-
+       time[p-1]+=a;
     }
-    for()
+    for(i=0;i<48;i++)
     {
-        if()
+        if(m<time[i])
         {
 
         }
