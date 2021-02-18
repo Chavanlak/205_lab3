@@ -6,8 +6,8 @@ int main()
     scanf("%d",&n);
     for(i=0;i<n;i++)
     {
-       scanf("%d%d",&p,&a);
-       time[p-1]+=a;
+       scanf("%d %d",&p,&a);
+       time[p-1] += a;
     }
     for(i=0;i<48;i++)
     {
@@ -17,10 +17,7 @@ int main()
             prime=i;
         }
     }
-    printf("%d %d",time,time[prime]);
-
-
-
+    printf("%d %d",prime+1,time[prime]);
     return 0;
 
 
